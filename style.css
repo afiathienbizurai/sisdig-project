@@ -1,0 +1,155 @@
+/* Untuk properti global */
+.background1
+{
+    background-color: #304d30;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    text-align: center;
+    height: 2000px;
+    border-radius: 60%;
+}
+* {
+    color:whitesmoke;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+body {
+    background-color: #F9e8d9;
+}
+
+/* Bagian Judul */
+
+.judul 
+{
+    font-size: 7rem;
+    font-weight: 500;
+    background-color: antiquewhite;
+    border-radius: 20px 20px 20px 20px;
+    color: #092635;
+}
+
+/* Bagian Container */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+/* Bagian Display */
+
+.kata {
+    font-size: 5rem;
+    font-weight: 100;
+}
+
+.seven-segment {
+    margin-bottom: 20px;
+   
+}
+
+.segmen {
+    display: inline-block;
+    border : 5px solid rgb(232, 221, 232);
+    border-radius: 10px;
+}
+
+#a, #g, #d {
+    height: 35px;
+    width: 120px;
+}
+
+#f, #b, #c, #e {
+    height: 120px;
+    width: 35px;
+}
+
+#b, #c {    
+    margin-left: 130px;
+}
+
+/* Bagian tombol */
+
+.tombol 
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    
+
+    width: 700px;
+    height: 300px;
+    color: white;
+    
+    gap: 1rem; 
+}
+
+.tombol button
+{
+    background-color: #092635;
+
+    border: 3px solid #F9e8d9;
+    border-radius: 20px;;
+
+    height: 7rem;
+    width: 7rem;
+
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.tombol button:hover
+{
+    background-color: #f7b787;
+}
+
+.tombol button:active
+{
+    font-size: 4rem;
+}
+
+/* Bagian Tabel Kebenaran */
+
+.tabel 
+{
+    height: 270px;
+    width: 820px;
+    --midnight: #092635;
+    font-size: 2rem;
+}
+
+.tabel tr, th, td{
+    background-color: var(--midnight);
+    font-weight: 500;
+
+    border: 2px solid #f9e8f9;
+    margin: auto;
+    padding: 15px 25px;
+}
+
+.tabel-kebenaran {
+    display: grid;
+    place-items: center;
+}
+
+/* Bagian Nama */
+
+.nama 
+{
+   display: flex;
+   justify-content: center;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 500;
+    background-color: #ee7214;
+    border-radius: 80%;
+    height: 400px;
+    border: 1px solid #F9e8d9;
+}

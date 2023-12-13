@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tugas Sistem Digital</title>
+</head>
+<body>
+    <div class="background1">
+    <header>
+        <span class = "judul">
+            --Seven Segment--
+        </span>
+    </header>
+
+    <main>
+        <div class = "container">
+            <div class = "seven-segment">
+                <span class = "kata">Output</span><br><br>
+                <span id = "a" class = "segmen"></span><br>
+                <span id = "f" class = "segmen"></span>
+                <span id = "b" class = "segmen"></span><br>
+                <span id = "g" class = "segmen"></span><br>
+                <span id = "e" class = "segmen"></span>
+                <span id = "c" class = "segmen"></span><br>
+                <span id = "d" class = "segmen"></span>
+            </div>
+
+            <div class = "tombol">
+                <button onclick = "display_seven_segment(0)">0</button>
+                <button onclick = "display_seven_segment(1)">1</button>
+                <button onclick = "display_seven_segment(2)">2</button>
+                <button onclick = "display_seven_segment(3)">3</button>
+                <button onclick = "display_seven_segment(4)">4</button>
+                <button onclick = "display_seven_segment(5)">5</button>
+                <button onclick = "display_seven_segment(6)">6</button>
+                <button onclick = "display_seven_segment(7)">7</button>
+                <button onclick = "display_seven_segment(8)">8</button>
+                <button onclick = "display_seven_segment(9)">9</button>
+            </div>
+            <div class = "tabel">
+                <table class = "tabel-kebenaran">
+                    <tr class = "nama_io">
+                        <th colspan = 4>Input</th>
+                        <th colspan = 7>Output</th>
+                    </tr>
+    
+                    <tr class = "variabel-input-output">
+                        <td>W</td>
+                        <td>X</td>
+                        <td>Y</td>
+                        <td>Z</td>
+                        <td>A</td>
+                        <td>B</td>
+                        <td>C</td>
+                        <td>D</td>
+                        <td>F</td>
+                        <td>E</td>
+                        <td>G</td>
+                    </tr>
+                    
+                    <tr class = "nilai-input-output">
+                        <td id = "nilaiInputW">0</td>
+                        <td id = "nilaiInputX">0</td>
+                        <td id = "nilaiInputY">0</td>
+                        <td id = "nilaiInputZ">0</td>
+                        <td id = "nilaiOutput_a">0</td>
+                        <td id = "nilaiOutput_b">0</td>
+                        <td id = "nilaiOutput_c">0</td>
+                        <td id = "nilaiOutput_d">0</td>
+                        <td id = "nilaiOutput_e">0</td>
+                        <td id = "nilaiOutput_f">0</td>
+                        <td id = "nilaiOutput_g">0</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </main>
+    
+    
+    <footer>
+        <p class = "nama">
+            Nama : Adnan Adnan<br>
+            NIM : D121231005
+        </p>
+    </footer>
+    
+    <script src = "script.js"></script>
+
+</div>
+</body>
+</html>
